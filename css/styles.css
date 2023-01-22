@@ -4,6 +4,7 @@
   --second-color: #757575;
   --accent-color: #2196f3;
   --main-font-family: "Roboto", sans-serif;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 p,
 h1,

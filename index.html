@@ -72,7 +72,7 @@
             </h1>
 
             <div class="main-btn">
-              <button type="button" class="main-btn-btn">
+              <button type="button" class="main-btn-btn" data-modal-open>
                 Замовити послугу
               </button>
             </div>
@@ -444,6 +444,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg width="8" height="8" class="close-icon">
+            <use href=".img/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
